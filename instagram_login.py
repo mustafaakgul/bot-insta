@@ -31,8 +31,8 @@ time.sleep(5)
 username = browser.find_element_by_name("username")
 password = browser.find_element_by_name("password")
 
-username.send_keys("nyil0376@gmail.com")
-password.send_keys("nehir123456")
+username.send_keys("USERNAME")
+password.send_keys("PASSWORD")
 
 login_button = browser.find_element_by_xpath("//*[@id='loginForm']/div/div[3]")
 login_button.click()
